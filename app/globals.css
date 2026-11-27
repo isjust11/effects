@@ -1,0 +1,36 @@
+:root {
+  --ink: #1a1410;
+  --paper: #f6f0e6;
+  --gold: #c9a227;
+  --rose: #c45c6a;
+  --muted: #7a6558;
+  --panel: rgba(255, 248, 240, 0.88);
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-body: "Be Vietnam Pro", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  color: var(--ink);
+  font-family: var(--font-body);
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(201, 162, 39, 0.18), transparent 50%),
+    radial-gradient(ellipse at 90% 20%, rgba(196, 92, 106, 0.14), transparent 45%),
+    linear-gradient(165deg, #fbf7f0 0%, #efe4d4 48%, #e8dcc8 100%);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
